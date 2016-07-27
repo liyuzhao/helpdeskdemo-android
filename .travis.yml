@@ -16,5 +16,6 @@ deploy:
   file: 'app/build/outputs/apk/app-debug.apk'
   skip_cleanup: true
   on:
+    tags: true
     all_branches: true
     repo: liyuzhao/helpdeskdemo-android
